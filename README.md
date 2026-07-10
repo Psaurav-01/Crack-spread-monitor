@@ -6,8 +6,6 @@ Refreshes automatically every trading day via GitHub Actions and publishes to Gi
 
  https://Psaurav-01.github.io/crack-spread-monitor/
 
-![dashboard preview](docs/preview.png) <!-- optional: add a screenshot here -->
-
 ## What it does
 
 Refiners buy crude oil and sell refined products (gasoline, diesel/heating oil). The
@@ -40,7 +38,7 @@ spread from $/bbl into:
 - **Period P&L swing** — last observed 1-day move × throughput × period (a rough read on realized turbulence)
 - **VaR 95% / 99% in dollars** — 1-day VaR scaled to the holding period via √t, × throughput
 
-This is intentionally simple — real refinery risk also accounts for actual hedge ratios,
+This is intentionally simple but a  real refinery risk also accounts for actual hedge ratios,
 correlation between legs when combining VaR (this dashboard sums them, which is
 conservative/undiversified, not a true portfolio VaR), and basis risk between paper and
 physical. Treat it as a way to translate price-level signals into dollar terms, not as a
@@ -91,6 +89,3 @@ open docs/index.html             # or just double-click it
 - Swap out the static Yahoo pull for a live/intraday feed
 - Alerting (Slack/email) when a spread crosses a z-score threshold
 
-## License
-
-MIT — see [LICENSE](LICENSE).
