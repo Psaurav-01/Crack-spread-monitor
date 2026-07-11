@@ -4,7 +4,7 @@ A live dashboard tracking refining margins — the **3:2:1**, **gasoline**, and 
 crack spreads — built from daily WTI, RBOB gasoline, and heating oil futures settlements.
 Refreshes automatically every trading day via GitHub Actions and publishes to GitHub Pages.
 
- https://Psaurav-01.github.io/crack-spread-monitor/
+ https://psaurav-01.github.io/Crack-spread-monitor/
 
 ## What it does
 
